@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="heading">Moneygramm</h1>
+      <form class="form">
+        <input class="form__input" type="number" />
+
+        <select id="select">
+          <option value="currency" disabled selected>Currency</option>
+          <option class="usd" value="usd">USD</option>
+          <option class="ruble" value="ruble">Ruble</option>
+          <option class="euro" value="euro">Euro</option>
+        </select>
+
+        <button class="btn" type="submit">Check</button>
+      </form>
+      <h2 class="result"></h2>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
